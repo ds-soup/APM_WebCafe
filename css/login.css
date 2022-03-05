@@ -1,0 +1,96 @@
+button{
+  background:#1AAB8A;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:15px;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #86c2e5;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+
+.login_btn li {
+    border-right : 1px solid #c5c5c5;
+    padding-right : 11px;
+}
+
+.sign_btn {
+    border : 1px solid skyblue;
+    background-color : rgba(0,0,0,0);
+    color : skyblue;
+    padding : 5px;
+    border-top-left-radius : 5px;
+    border-bottom-left-radius : 5px;
+    width : 50%;
+    height : 40px;
+}
+
+.cancel_btn {
+    border : 1px solid skyblue;
+    background-color : rgba(0,0,0,0);
+    color : skyblue;
+    padding : 5px;
+    border-top-left-radius : 5px;
+    border-bottom-left-radius : 5px;
+    width : 50%;
+    height : 40px;
+}
+
+.sign_btn:hover {
+    color : white;
+    background-color : skyblue;
+}
+
+.cancel_btn:hover {
+    color : white;
+    background-color : skyblue;
+}
+
+.input_box {
+    display : inline-block;
+    height : 40px;
+    padding : 0 10px;
+    border :1px solid #dddddd;
+    width : 50%;
+    color : #999999;
+    border-radius : 5px;
+    text-align : left;
+    margin-left : 50px;
+}
+
+.input_box::placeholder {
+    font-family : IM_Hyemin-Bold;
+    text-align : center;
+}
+
+
+
+
+
