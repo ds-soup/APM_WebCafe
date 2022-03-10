@@ -50,8 +50,32 @@
             return $data['mb_name'];
             
         }
+        public function UploadBoard($title, $name, $date, $content) {
+            $query = "insert into board_free(title, name, date, content) values('$title','$name','$date','$content')";
+            $stmt = $this->mysqli->prepare($query);
+            $result = $stmt->execute();
+            return $result;
+        }
+        public function UploadBoards($table, $title, $name, $date, $content) {
+            $query = "insert into {$table}(title, name, date, content) values('$title','$name','$date','$content')";
+            $stmt = $this->mysqli->prepare($query);
+            $result = $stmt->execute();
+            return $result;
+        }
+        public function DownloadBoard($table) {
+            $query = "select idx, title, name,date from {$table} where title != ''";
+            $stmt = $this->mysqli->prepare($query);
+            $stmt->execute();
+            $result = $stmt->get_result();
+            return $result;
+        }
+        public function DownloadBoardPage($query) {
+            $stmt = $this->mysqli->prepare($query);
+            $stmt->execute();
+            $result = $stmt->get_result();
+            return $result;
+        }
         
-    
     }
     
 

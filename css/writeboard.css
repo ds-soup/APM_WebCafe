@@ -1,0 +1,98 @@
+.writetit {
+    font-family: 'GimhaeGayaB';
+    
+}
+
+.post-title {
+    width : 100%;
+    margin-left : 10%;
+    height : 42px;
+    border-bottom : 1px solid rgba(0,0,0,.05);
+}
+
+.textarea_title {
+    border : none;
+    height : 42px;
+    font-size : 30px;
+    display : block;
+    color : #202020;
+    resize:none;
+    outline : 0 none;
+    line-height : 40px;
+    overflow : hidden;
+    letter-spacing : -.4px;
+}
+
+.textarea_title:placeholder {
+    
+    font-weight : 400;
+}
+
+.post-content {
+    width : 100%;
+    margin-left : 10%;
+    height : 500px;
+    border-bottom : 1px solid rgba(0,0,0,.05);
+}
+
+.textarea_content {
+    border : none;
+    height : 100%;
+    font-size : 18px;
+    display : block;
+    color : #202020;
+    resize:none;
+    outline : 0 none;
+    line-height : 2.25rem;
+    overflow : hidden;
+    letter-spacing : -.4px;
+    padding-top : 42px;
+    font-family: 'LeeSeoyun';
+
+}
+
+
+.submit_content {
+    position : absolute;
+    right : 7%;
+    margin-top : 20px;
+    font: menu;
+    font-size : 14px;
+    font-weight : bold;
+    display: inline-block; 
+    padding: 2px 8px;
+    background: #5983bd; 
+    color: #fff;
+    border-style: solid; 
+    border-width: 2px;
+    border-color: #5983bd;
+    border-radius : 3px;
+    position : absolute;
+    right : 7%;
+}
+
+.cancel_content {
+    position : absolute;
+    right : 0;
+    margin-top : 20px;
+    font: menu;
+    font-size : 14px;
+    font-weight : bold;
+    display: inline-block; 
+    padding: 2px 8px;
+    background: #5983bd; 
+    color: #fff;
+    border-style: solid; 
+    border-width: 2px;
+    border-color: #5983bd;
+    border-radius : 3px;
+    position : absolute;
+    right : 0;
+}
+
+.submit_content:hover, .cancel_content:hover {
+    color : 5983bd;
+    background : #fff;
+}
+
+

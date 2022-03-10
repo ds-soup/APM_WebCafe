@@ -28,10 +28,10 @@
         <div class="menu">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Study</a></li>
-                <li><a href="#">Forum</a></li>
-                <li><a href="#">Story</a></li>
-                <li><a href="#">자유게시판</a></li>
+                <li><a href="board/index.php?boardNum=1">Study</a></li>
+                <li><a href="board/index.php?boardNum=2">Forum</a></li>
+                <li><a href="board/index.php?boardNum=3">Story</a></li>
+                <li><a href="board/index.php?boardNum=4">자유게시판</a></li>
             </ul>
             <div class="login_bar">
                 <?php require_once("./member/navlogin.php"); ?>

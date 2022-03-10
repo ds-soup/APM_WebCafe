@@ -1,0 +1,170 @@
+.board_title {
+    margin-left : 10%;
+    padding-bottom : 10px;
+    margin-bottom : 0px;
+    font-family: 'GimhaeGayaB';
+}
+
+.board_subtitle {
+    padding-left : 10%;
+    font-family: 'LeeSeoyun';
+    font-weight : 400;
+}
+
+
+.blind {
+    position : absolute !important;
+    height : 1px;
+    width : 1px;
+    overflow : hidden;
+    clip : rect(1px,1px,1px,1px);
+    
+}
+
+.bbs_search select {
+    padding-right: 0.9rem;
+    min-width : 6rem;
+    height : 2.5rem;
+    font-size : 0.9rem;
+    line-height : 2rem;
+    vertical-align : middle;
+    border : 1px solid #ccc;
+}
+
+.bbs_search button.btnSearch {
+    position : relative;
+    padding : 0 1rem 0 2.25rem;
+    line-height : 2rem;
+    color : #fff;
+    vertical-align : middle;
+    overflow : hidden;
+    transition : all 0.2s ease-out 0.1s;
+    background : #333 url(../image/board/ico_bbs_search2.png) no-repeat 1rem center;
+    cursor : pointer;
+}
+
+.bbs_search input.inpTxt {
+    width : 35%;
+    height : 2.5rem;
+    line-height : 2rem;
+    padding 0 0.5rem;
+    font-size : 0.75rem;
+    vertical-align : middle;
+    border : 1px solid #ccc;
+}
+
+
+.board_container {
+    
+    text-align : center;
+    boarder : none;
+    padding-left : 10%;
+}
+
+.board_container tr {
+    box-sizing : border-box;
+}
+
+.board_container th:not(.in_board_title) {
+    border-bottom : 1px solid #d2d7dc;
+    font-weight : 400;
+    height : 1rem;
+    text-align : center;
+    vertical-align : middle;
+    width : 15%;
+    font-weight : bold;
+    padding-bottom : 0.9rem;
+}
+
+.board_container td {
+    padding-bottom : 0.6rem;
+    padding-top : 0.2rem;
+    height : 1rem;
+    text-align : center;
+    vertical-align : middle;
+    font-size : 1rem;
+    border-bottom : 1px solid #eaecf1;
+}
+
+.in_board_title {
+    border-bottom : 1px solid #d2d7dc;
+    font-weight : bold;
+    height : 1rem;
+    text-align : center;
+    vertical-align : middle;
+    width : 30%;
+    padding-bottom : 0.9rem;
+}
+
+.link_writePage {
+    text-decoration: none; 
+    font: menu;
+    font-size : 14px;
+    font-weight : bold;
+    display: inline-block; 
+    padding: 2px 8px;
+    background: #5983bd; 
+    color: #fff;
+    border-style: solid; 
+    border-width: 2px;
+    border-color: #5983bd;
+    border-radius : 3px;
+    position : absolute;
+    right : 0;
+    margin-top : 3.75%;
+}
+
+.link_writePage:hover {
+    color : 5983bd;
+    background : #fff;
+}
+
+a.title_link {
+    text-decoration : none;
+    color : #3e3d3d;
+    cursor: pointer;
+}
+
+a.title_link:hover {
+    text-decoration : underline;
+}
+
+
+.boardPaging_navbar {
+    width : 100%;
+    height : 500px;
+    margin-left : 10%;
+    text-align : center;
+    font-family: 'IM_Hyemin-Bold';
+}
+
+.boardPaging_navbar ul {
+    height : 100%;
+    padding-left : 35%;
+    padding-top : 30px;
+    text-align : center;
+}
+
+.boardPaging_navbar li {
+    list-style : none;
+    float : left;
+    width : 5%;
+    height : 30px;
+    text-align : center;
+    padding-right : 1em;
+}
+
+.page-link {
+    color : #444;
+    min-width : 1.75rem;
+    height : 1.75rem;
+    line-height : 13px;
+    font-size : 1em;
+    font-weight : normal;
+    text-decoration : none;
+    vertical-align : top;
+}
+
+
+
+

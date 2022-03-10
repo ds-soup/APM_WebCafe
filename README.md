@@ -13,21 +13,25 @@
 	사용자 별 세션 유지
     
 #### 에러사항
-- php, mysql 연동문제
+- php, mysql 연동문제 (해결)
   - sudo apt-get install php7.3-mysql 패키지를 통해 연결 설정.
   
-- php mysql prepared statement 구현
+- php mysql prepared statement 구현 (해결)
   - https://runebook.dev/ko/docs/php/mysqli.prepare
   
-- php-mysql error :
+- php-mysql error : (해결)
     - message : Call to a member function execute() 
     - 해결방법. sql문에 적힌 테이블에 접근 권한이 없을 때 발생할 수 있음.
     
+ - textarea 앞 space bar가 default로 입력되는 현상 (해결)
+     - <textarea> </textarea> 일때 발생
+     - <textarea></textarea> 일 경우 해결.
 
   
 ### 구현 완료
 
 - 회원 가입
+- 로그인 및 세션 유지
 
   
  
