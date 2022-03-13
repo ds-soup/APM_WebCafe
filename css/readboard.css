@@ -1,0 +1,160 @@
+.subcontainer {
+    margin-left : 5%;
+}
+
+.board_series > a {
+    text-decoration : none;
+    color : rgb(85, 122, 116);
+}
+
+.read_title {
+    width : 100%;
+    height : 42px;
+    font-size : 30px;
+    color : #202020;
+    line-height : 40px;
+    vertical-align : baseline;
+    border : none;
+    letter-spacing : -.4px;
+}
+
+.read_board_writer {
+    width : 100%;
+    height : 40px;
+    margin-top : 8px;
+    padding-bottom : 12px;
+    border-bottom : 1px solid #c5c5c5;
+    font-size : 0.9em;
+}
+
+.writer {
+    float : left;
+    overflow : hidden;
+    text-overflow : ellipsis;
+    white-space : nowrap;
+    vertical-align : top;
+    margin-right : 2em;
+    margin-left : 14px;
+    font-weight : 450;
+}
+
+.publishdate {
+    float : left;
+    vertical-align : top;   
+}
+
+.se-main-container {
+    margin-top: 32px;
+    font-family: 'LeeSeoyun';
+    line-height: 2.25rem;
+    color: #202020;
+    font-size: 18px;
+    letter-spacing: -.4px;
+}
+
+.opt_menu {
+    width : 23%;
+    height : 50px;
+    position : absolute;
+    right : 0;
+    display : flex;
+    justify-content : flex-end;
+    margin-top: 3em;
+}
+
+.opt_menu li{
+    list-style : none;
+    float : left;
+    margin-left : 25px;
+}
+
+.opt_menu li a {
+    text-decoration: none;
+    font: menu;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 2px 8px;
+    background: #5983bd;
+    color: #fff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #5983bd;
+    border-radius: 3px;
+    margin-top: 3.75%;
+}
+
+.opt_menu li a:hover {
+    color: 5983bd;
+    background: #fff;
+}
+
+.reply_input {
+    margin-top : 40px;
+    padding-top : 15px;
+    border-top : 1px solid #c5c5c5;
+}
+
+
+.reply_writer {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: top;
+    margin-right: 2em;
+    margin-left: 14px;
+    font-weight: 450;
+    font-size : 0.9em;
+}
+
+textarea.reply_content {
+    border: none;
+    text-align: left;
+    padding-left : 5%;
+    width: 100%;
+    height: 42px;
+}
+
+button.reply_btn {
+    position : absolute;
+    right : 0;
+    height : 42px;
+    font: menu;
+    font-size : 14px;
+    font-weight : bold;
+    display: inline-block; 
+    background: #5983bd; 
+    color: #fff;
+    border-style: solid; 
+    border-width: 2px;
+    border-color: #5983bd;
+    border-radius : 3px;
+    cursor : pointer;
+}
+
+button.reply_btn:hover {
+    color : 5983bd;
+    background : #fff;
+}
+
+.board_comments {
+    margin-top: 50px;
+    padding-top: 25px;
+    border-top: 1px solid #c5c5c5;
+}
+
+.repy_writer {
+    float : left;
+    font-weight : 450;
+    font-size : 0.9em;
+    
+}
+
+.repy_date {
+    float : left;
+    margin-left : 2%;
+    font-weight : 450;
+    font-size : 0.9em;
+}
+
+

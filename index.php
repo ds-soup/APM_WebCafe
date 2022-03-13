@@ -54,10 +54,8 @@
         </div>
     </div>
     <div class="right_sidebar">
-        <div class="side_image">이미지
+        <div class="side_image">Side Bar
         </div>
-        <h3 class ="side_container">About me</h3>
-        <h3 class ="side_container">mail</h3>
         <h3 class ="side_container">Recent Post</h3>
     </div>
 	
